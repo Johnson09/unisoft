@@ -8,14 +8,14 @@
     
     <!-- Script -->
     <!-- <script src="{{ asset('public/js/app.js') }}" defer></script> -->
-    <script src="{{ secure_asset('public/js/style.js') }}" defer></script>
-    <link rel="icon" type="image/png" href="public/images/icons/favicon.ico"/>
+    <script src="{{ secure_asset('public/js/style.js') }}" ></script>
+    <link rel="icon" type="image/png" href="{{ secure_asset('public/images/icons/favicon.ico') }}"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <!-- Style -->
     <!-- <link rel="stylesheet" href="{{ asset('public/css/app.css') }}"> -->
-    <link rel="stylesheet" href="{{ secure_asset('public/css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('public/css/style.css') }}" media="all" rel="stylesheet" type="text/css">
 
     <script>
         // Mensaje de advertencia o error de logueo
@@ -70,7 +70,7 @@
                     <path d="m 40,120.00016 239.99984,-3.2e-4 c 0,0 24.99263,0.79932 25.00016,35.00016 0.008,34.20084 -25.00016,35 -25.00016,35 h -239.99984 c 0,-0.0205 -25,4.01348 -25,38.5 0,34.48652 25,38.5 25,38.5 h 215 c 0,0 20,-0.99604 20,-25 0,-24.00396 -20,-25 -20,-25 h -190 c 0,0 -20,1.71033 -20,25 0,24.00396 20,25 20,25 h 168.57143" />
                 </svg>
                 <div class="form">
-                    <form action="{{ secure_url('login') }}" method="post">
+                    <form action="{{ url('login') }}" method="post">
                     <!-- Formulario para login -->
                     @csrf
                         <label for="email">Usuario</label>
