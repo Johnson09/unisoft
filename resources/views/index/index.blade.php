@@ -10,7 +10,7 @@
     <!-- <script src="{{ asset('public/js/app.js') }}" defer></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="{{ secure_asset('public/js/style.js') }}" ></script>
+    <script src="{{ secure_asset('public/js/style.js') }}" defer></script>
 
     <!-- Style -->
     <!-- <link rel="stylesheet" href="{{ asset('public/css/app.css') }}"> -->
