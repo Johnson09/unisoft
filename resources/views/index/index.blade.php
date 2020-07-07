@@ -8,14 +8,14 @@
     
     <!-- Script -->
     <!-- <script src="{{ asset('public/js/app.js') }}" defer></script> -->
-    <script src="{{ asset('public/js/style.js') }}" defer></script>
+    <script src="{{ secure_asset('public/js/style.js') }}" defer></script>
     <link rel="icon" type="image/png" href="public/images/icons/favicon.ico"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <!-- Style -->
     <!-- <link rel="stylesheet" href="{{ asset('public/css/app.css') }}"> -->
-    <link rel="stylesheet" href="{{ asset('public/css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('public/css/style.css') }}">
 
     <script>
         // Mensaje de advertencia o error de logueo
