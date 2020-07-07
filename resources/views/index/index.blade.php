@@ -8,13 +8,13 @@
     
     <!-- Script -->
     <!-- <script src="{{ asset('public/js/app.js') }}" defer></script> -->
-    <script src="{{ secure_asset('public/js/style.js') }}" ></script>
-    <link rel="icon" type="image/png" href="{{ secure_asset('public/images/icons/favicon.ico') }}"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="{{ secure_asset('public/js/style.js') }}" ></script>
 
     <!-- Style -->
     <!-- <link rel="stylesheet" href="{{ asset('public/css/app.css') }}"> -->
+    <link rel="icon" type="image/png" href="{{ secure_asset('public/images/icons/favicon.ico') }}"/>
     <link rel="stylesheet" href="{{ secure_asset('public/css/style.css') }}" media="all" rel="stylesheet" type="text/css">
 
     <script>
